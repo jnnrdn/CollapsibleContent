@@ -13,3 +13,5 @@ tests/mocks/env/
 /assets/vendor/
 
 .idea/
+
+.DS_Store

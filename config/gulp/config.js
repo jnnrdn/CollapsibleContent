@@ -17,16 +17,16 @@ module.exports = function ( moduleRoot ) {
 	 ***********************************/
 
 	var moduleSettings = {
-		package: 'knowthecode',
-		domain: 'knowthecode.dev',
+		package: 'collapsible-content',
+		domain: 'ktc-collapsible-content.dev',
 		// If this is for a theme, set to `true`; else, set to `false`.
 		isTheme: false,
 		i18n: {
-			textdomain: 'knowthecode',
-			languageFilename: 'knowthecode.pot',
-			bugReport: 'https://knowthecode.io',
-			lastTranslator: 'Know the Code <hello@knowthecode.io>',
-			team: 'Team <hello@knowthecode.io>'
+			textdomain: 'collapsible_content',
+			languageFilename: 'collapsible-content.pot',
+			bugReport: 'https://jennyryden.com',
+			lastTranslator: 'Jenny Ryden <hello@jennyryden.com>',
+			team: 'Team <hello@jennyryden.com>'
 		}
 	};
 
@@ -82,7 +82,6 @@ module.exports = function ( moduleRoot ) {
 		css: ['./*.css', '!*.min.css'],
 		icons: assetDirs.images + 'svg-icons/*.svg',
 		images: [ assetDirs.images + '*', '!' + assetDirs.images + '*.svg' ],
-		php: [ moduleRoot + '*.php', moduleRoot + '**/*.php'],
 		sass: assetDirs.sass + '**/*.scss',
 		concatScripts: assetDirs.scripts + '*.js',
 		scripts: [ assetDirs.scripts + '*.js', '!' + assetDirs.scripts + '*.min.js' ],
