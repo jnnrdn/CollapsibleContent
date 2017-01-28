@@ -2,8 +2,8 @@
 /**
  * Collapsible Content plugin
  *
- * @package     JennyRyden\CollapsibleContent
- * @author      jryden
+ * @package     WebJen\CollapsibleContent
+ * @author      webjen
  * @copyright   2016 Jenny Ryden
  * @license     GPL-2.0+
  *
@@ -12,7 +12,7 @@
  * Plugin URI:  https://github.com/webjen/collapsible-content
  * Description: A plugin that allows you to show and hide pieces of content. Click on the teaser to open, click again to close. For FAQ's, Q & A's, hints, marketing teasers and more.
  * Version:     1.0.0
- * Author:      jryden
+ * Author:      webjen
  * Author URI:  https://jennyryden.com
  * Text Domain: collapsible_content
  * Domain Path: /languages
@@ -37,8 +37,10 @@
 	along with Collapsible Content. If not, see https://www.gnu.org/licenses/gpl-2.0.html.
 */
 
-namespace JennyRyden\CollapsibleContent;
+namespace WebJen\CollapsibleContent;
 
-function plugin_launch() {
-
+if ( ! defined( 'ABSPATH' ) ) {
+	die( "Nothing to see here, move along." );
 }
+
+include( __DIR__ . '/src/shortcode/shortcodes.php' );
