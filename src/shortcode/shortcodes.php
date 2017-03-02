@@ -29,7 +29,7 @@ add_shortcode( 'teaser', __NAMESPACE__ . '\process_the_shortcode' );
  */
 function process_the_shortcode( $user_defined_attributes, $hidden_content, $shortcode_name ) {
 	$config = get_shortcode_configuration( $shortcode_name );
-	d($config);
+
 	$attributes = shortcode_atts(
 		$config['defaults'],
 		$user_defined_attributes,
