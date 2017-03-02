@@ -24,7 +24,7 @@ To install this plugin you can download it by clicking on the GitHub Download bu
 
 If you want to continue development, you will need to have Composer, Gulp, Node.js and npm installed on your machine. 
 
-1. Navigate to the `wp-content/plugins/ktc-collapsible-content` folder. 
+1. Navigate to the `wp-content/plugins/collapsible-content` folder. 
 2. Then type `npm install` to install all of the `node modules` for Gulp.
 3. Type `composer install` to install the Composer PHP packages.
 
